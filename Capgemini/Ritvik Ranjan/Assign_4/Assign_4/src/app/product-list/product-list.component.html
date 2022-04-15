@@ -1,0 +1,30 @@
+
+<!--<div>
+
+ Products List:
+
+</div>-->
+<div>
+  <table class=" table table-striped">
+    <thead>
+      <tr>
+        <th> Id </th>
+        <th> Title </th>
+        <th> Description </th>
+        <th> Sales Price </th>
+        <th> Current Stock </th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <!--Interpolation-->
+        <td> {{ product.id }} </td>
+        <td> {{ product.title }} </td>
+        <td> {{ product.description }} </td>
+        <td> {{ product.sales_price }} </td>
+        <td> {{ product.current_stock }} </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
