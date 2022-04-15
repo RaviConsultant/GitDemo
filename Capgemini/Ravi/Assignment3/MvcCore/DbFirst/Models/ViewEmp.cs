@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace DbFirst.Models
+{
+    public partial class ViewEmp
+    {
+        public short Id { get; set; }
+        public string EmpId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Mobile { get; set; }
+        public string Email { get; set; }
+        public DateTime? Dob { get; set; }
+        public byte? DeptId { get; set; }
+        public bool IsActive { get; set; }
+    }
+}
