@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "KeeSiA6kchTCvXiamJX/9iNRjEhqVCO+G2YKA2KKrwwP0tJw+Ie8J3x0VuxQ/+/tvUw0/AuGeL3xPxQp7+QseQ==",
+  "success": false,
+  "projectFilePath": "E:\\Assignment_oops_sol_2_1\\Assignment_oops_sol_2_1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\Utility_opps_2_1\\Utility_opps_2_1.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\Utility_opps_2_1\\Utility_opps_2_1.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
