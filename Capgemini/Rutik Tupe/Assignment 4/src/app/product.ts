@@ -1,15 +1,15 @@
 export class Product {
   id: number;
   title: string;
-  desc: string;
-  salePrice: number;
-  current_stock: number;
+  descrip: string;
+  salesPrice: number;
+  currentstock: number;
 
   constructor() {
     this.id = 0;
     this.title = "";
-    this.desc = "";
-    this.salePrice = 0;
-    this.current_stock = 0;
+    this.descrip = "";
+    this.salesPrice = 0;
+    this.currentstock = 0;
    }
 }
