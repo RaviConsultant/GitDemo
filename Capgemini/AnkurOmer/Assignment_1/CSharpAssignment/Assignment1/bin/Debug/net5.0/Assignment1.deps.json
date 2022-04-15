@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Assignment1/1.0.0": {
+        "dependencies": {
+          "FactorialOfNumber": "1.0.0",
+          "MathsTable": "1.0.0",
+          "NumberIsPalindrome": "1.0.0",
+          "NumberIsPrime": "1.0.0",
+          "SumOfDigits": "1.0.0"
+        },
+        "runtime": {
+          "Assignment1.dll": {}
+        }
+      },
+      "FactorialOfNumber/1.0.0": {
+        "runtime": {
+          "FactorialOfNumber.dll": {}
+        }
+      },
+      "MathsTable/1.0.0": {
+        "runtime": {
+          "MathsTable.dll": {}
+        }
+      },
+      "NumberIsPalindrome/1.0.0": {
+        "runtime": {
+          "NumberIsPalindrome.dll": {}
+        }
+      },
+      "NumberIsPrime/1.0.0": {
+        "runtime": {
+          "NumberIsPrime.dll": {}
+        }
+      },
+      "SumOfDigits/1.0.0": {
+        "runtime": {
+          "SumOfDigits.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FactorialOfNumber/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathsTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberIsPalindrome/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NumberIsPrime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SumOfDigits/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
