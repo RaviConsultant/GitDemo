@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "IBank.Design1/1.0.0": {
+        "dependencies": {
+          "IBank.Utility": "1.0.0"
+        },
+        "runtime": {
+          "IBank.Design1.dll": {}
+        }
+      },
+      "IBank.Utility/1.0.0": {
+        "runtime": {
+          "IBank.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IBank.Design1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IBank.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
