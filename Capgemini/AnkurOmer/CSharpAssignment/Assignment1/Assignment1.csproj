@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FactorialOfNumber\FactorialOfNumber.csproj" />
+    <ProjectReference Include="..\MathsTable\MathsTable.csproj" />
+    <ProjectReference Include="..\NumberIsPalindrome\NumberIsPalindrome.csproj" />
+    <ProjectReference Include="..\NumberIsPrime\NumberIsPrime.csproj" />
+    <ProjectReference Include="..\SumOfDigits\SumOfDigits.csproj" />
+  </ItemGroup>
+
+</Project>
