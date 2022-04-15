@@ -1,0 +1,22 @@
+<h1 class="d-flex justify-content-center text-danger"><b>Product List</b></h1>
+<table class=" table table-striped table-bordered  ">
+  <thead>
+    <tr>
+      <th class="text-dark"><b>Id</b></th>
+      <th class="text-dark"> <b>Title</b> </th>
+      <th class="text-dark"><b> Description</b> </th>
+      <th class="text-dark"> <b>Sales Price(Rs)</b> </th>
+      <th class="text-dark"><b>Current Stock</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.id }}</td>
+      <td class="text-primary"><b>{{ product.title }}</b></td>
+      <td> {{ product.desc }} </td>
+      <td> {{ product.salePrice }} </td>
+      <td> {{ product.current_stock }} </td>
+    </tr>
+  </tbody>
+</table>
+
