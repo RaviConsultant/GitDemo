@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design1", "MohitOPP\Design1.csproj", "{1BD074FC-4C0A-4FDC-AEF0-4FD05D31EB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design2", "Design2\Design2.csproj", "{DE303E80-953B-41B0-B688-F6A70E030D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{EFAE830A-EB7F-4ACE-AB0A-A05BD142CEAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD074FC-4C0A-4FDC-AEF0-4FD05D31EB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD074FC-4C0A-4FDC-AEF0-4FD05D31EB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD074FC-4C0A-4FDC-AEF0-4FD05D31EB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD074FC-4C0A-4FDC-AEF0-4FD05D31EB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE303E80-953B-41B0-B688-F6A70E030D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE303E80-953B-41B0-B688-F6A70E030D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE303E80-953B-41B0-B688-F6A70E030D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE303E80-953B-41B0-B688-F6A70E030D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAE830A-EB7F-4ACE-AB0A-A05BD142CEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAE830A-EB7F-4ACE-AB0A-A05BD142CEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAE830A-EB7F-4ACE-AB0A-A05BD142CEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAE830A-EB7F-4ACE-AB0A-A05BD142CEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF81E8D2-683D-4A17-A268-9414E98300DE}
+	EndGlobalSection
+EndGlobal
