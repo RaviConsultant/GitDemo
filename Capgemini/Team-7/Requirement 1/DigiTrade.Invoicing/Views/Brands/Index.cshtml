@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DigiTrade.Invoicing.Models.Brand>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h3 ><b><i>Brand List</i></b></h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BrandName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BrandName)
+            </td>
+            <td>
+                <b>
+                 <a asp-action="Edit" asp-route-id="@item.Id">Modify</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </b>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br /><br />
+<p >
+    <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-action="Create">Add Brand</a>
+</p>
+<br /><br />
