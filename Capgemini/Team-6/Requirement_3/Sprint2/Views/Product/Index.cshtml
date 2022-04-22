@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Sprint2.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.brandName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tax)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ROM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RAM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrimaryCam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MainCam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Battery)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Processor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.curStock)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.brandName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalePrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ROM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RAM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrimaryCam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MainCam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Battery)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Processor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.curStock)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "ProductDetails", new { id=item.Id }) 
+        </td>
+    </tr>
+}
+
+</table>

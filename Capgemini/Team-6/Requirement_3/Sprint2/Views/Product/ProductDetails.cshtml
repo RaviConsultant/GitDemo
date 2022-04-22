@@ -1,0 +1,114 @@
+﻿@model Sprint2.Models.Product
+
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ProductDetails</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.brandName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.brandName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalePrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ROM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ROM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RAM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RAM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryCam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryCam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MainCam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MainCam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Battery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Battery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Processor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Processor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.curStock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.curStock)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
