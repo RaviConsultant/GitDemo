@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTraderAPI", "DigitalTraderAPI\DigitalTraderAPI.csproj", "{4B794B56-5FD3-485B-B879-6C77338E3998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTraders.Data", "DigitalTraders.Data\DigitalTraders.Data.csproj", "{7C9C256D-2982-474B-AE87-947623860773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalTraders.Services", "DigitalTraders.Services\DigitalTraders.Services.csproj", "{65408A84-F816-4502-9F72-4768E2726330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B794B56-5FD3-485B-B879-6C77338E3998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B794B56-5FD3-485B-B879-6C77338E3998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B794B56-5FD3-485B-B879-6C77338E3998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B794B56-5FD3-485B-B879-6C77338E3998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9C256D-2982-474B-AE87-947623860773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9C256D-2982-474B-AE87-947623860773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9C256D-2982-474B-AE87-947623860773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9C256D-2982-474B-AE87-947623860773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65408A84-F816-4502-9F72-4768E2726330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65408A84-F816-4502-9F72-4768E2726330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65408A84-F816-4502-9F72-4768E2726330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65408A84-F816-4502-9F72-4768E2726330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58F4AF94-4BAE-4D9E-9579-96953B02D8CE}
+	EndGlobalSection
+EndGlobal
