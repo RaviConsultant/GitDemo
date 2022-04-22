@@ -1,0 +1,96 @@
+﻿@model Requirement_1.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+.pageForm{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+</style>
+
+<h1>Create</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form class="pageForm" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Brand_Name" class="control-label"></label>
+                <input asp-for="Brand_Name" class="form-control" />
+                <span asp-validation-for="Brand_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="SalePrice" class="control-label"></label>
+                <input asp-for="SalePrice" class="form-control" />
+                <span asp-validation-for="SalePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Tax" class="control-label"></label>
+                <input asp-for="Tax" class="form-control" />
+                <span asp-validation-for="Tax" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="ROM" class="control-label"></label>
+                <input asp-for="ROM" class="form-control" />
+                <span asp-validation-for="ROM" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="RAM" class="control-label"></label>
+                <input asp-for="RAM" class="form-control" />
+                <span asp-validation-for="RAM" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="PrimaryCam" class="control-label"></label>
+                <input asp-for="PrimaryCam" class="form-control" />
+                <span asp-validation-for="PrimaryCam" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="MainCam" class="control-label"></label>
+                <input asp-for="MainCam" class="form-control" />
+                <span asp-validation-for="MainCam" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Battery" class="control-label"></label>
+                <input asp-for="Battery" class="form-control" />
+                <span asp-validation-for="Battery" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Processor" class="control-label"></label>
+                <input asp-for="Processor" class="form-control" />
+                <span asp-validation-for="Processor" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <label asp-for="Cur_stock" class="control-label"></label>
+                <input asp-for="Cur_stock" class="form-control" />
+                <span asp-validation-for="Cur_stock" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6 col-sm-12">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
