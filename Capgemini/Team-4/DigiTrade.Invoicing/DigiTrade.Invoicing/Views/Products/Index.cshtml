@@ -1,0 +1,95 @@
+﻿@model IEnumerable<DigiTrade.Invoicing.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Product</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sale_Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Current_Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Processor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RAM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ROM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Primary_Camera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Front_Camera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Battery)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sale_Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Current_Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Processor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RAM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ROM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Primary_Camera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Front_Camera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Battery)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand.BrandName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
