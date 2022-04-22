@@ -1,0 +1,60 @@
+﻿@model IEnumerable<DigiTradeASP.NETWEBAPP.Models.SalesInvoice>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Invoicedate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Invoicedate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustName.CustName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProdName.ProdName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Qty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.InvoiceNo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.InvoiceNo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.InvoiceNo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
