@@ -1,0 +1,107 @@
+﻿@model DigiTradeAPI.Models.ProductModel
+
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ProductDetails</h2>
+
+<div>
+    <h4>ProductModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalePrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentStock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentStock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Processor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Processor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ram)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ram)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryCamera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryCamera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FrontCamera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrontCamera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Battery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Battery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrandId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrandId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
